@@ -1,17 +1,17 @@
 [class^="icon-"] {
   display: inline-block;
   -webkit-mask-size: cover;
-          mask-size: cover;
+  mask-size: cover;
   -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
   -webkit-mask-position: center;
-          mask-position: center;
+  mask-position: center;
   background-color: #fff;
 }
 
 .icon-location {
   -webkit-mask-image: url("../icons/location.svg");
-          mask-image: url("../icons/location.svg");
+  mask-image: url("../icons/location.svg");
   width: 36px;
   height: 36px;
 }
