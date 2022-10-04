@@ -10,20 +10,20 @@
 }
 
 .icon-location {
-  -webkit-mask-image: url("../images/icons/location.svg");
-          mask-image: url("../images/icons/location.svg");
+  -webkit-mask-image: url("../icons/location.svg");
+          mask-image: url("../icons/location.svg");
   width: 36px;
   height: 36px;
 }
 
 .icon-clock {
-  background-image: url("../images/icons/clock.svg");
+  background-image: url("../icons/clock.svg");
   width: 46px;
   height: 46px;
 }
 
 .icon-plus {
-  background-image: url("../images/icons/plus.svg");
+  background-image: url("../icons/plus.svg");
   width: 21;
   height: 20;
 }
