@@ -1,0 +1,135 @@
+figure {
+  margin-bottom: 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// colors
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-primary-light {
+  background-color: rgba(235, 87, 87, 0.2) !important;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(235, 87, 87, 0.499037) 0%,
+    rgba(235, 87, 87, 0) 100%
+  );
+}
+
+.text-secondary {
+  color: var(--color-secondary) !important;
+}
+
+.text-dark {
+  color: var(--color-secondary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.text-warning {
+  color: var(--color-warning) !important;
+}
+
+.bg-warning {
+  background-color: var(--color-warning) !important;
+}
+
+.bg-gray-light {
+  background-color: #fbfbfb;
+}
+
+.form-label {
+  color: var(--color-secondary);
+}
+.form-control {
+  padding: 0.705rem 1.25rem;
+  &:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.25rem rgba(235, 87, 87, 0.685);
+  }
+}
+
+//   form
+
+.form-check-input:checked {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(235, 87, 87, 0.685);
+}
+
+.border-left {
+  border-left: 2px solid rgba(5, 13, 54, 0.1);
+}
+
+// buttons
+
+.btn {
+  padding: 0.78rem 1.85rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  &:focus {
+    box-shadow: rgba(235, 87, 87, 0.75) !important;
+  }
+}
+
+.btn-sm {
+  padding: 0.425rem 1.05rem;
+  font-size: 0.875rem;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: var(--color-primary) !important;
+  border: none;
+  &:hover {
+    background-color: var(--color-primary-dark) !important;
+    border-color: var(--color-primary-dark);
+  }
+  &:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.25rem rgba(235, 87, 87, 0.685);
+  }
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: var(--color-secondary);
+}
+
+// btn End

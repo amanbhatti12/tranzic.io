@@ -1,0 +1,122 @@
+[class^="icon-"] {
+  display: inline-block;
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.icon-location {
+  mask-image: url($image-path + "location.svg");
+  width: 36px;
+  height: 36px;
+}
+
+.icon-clock {
+  mask-image: url($image-path + "clock.svg");
+  width: 46px;
+  height: 46px;
+}
+
+.icon-plus {
+  mask-image: url($image-path + "plus.svg");
+  width: 21px;
+  height: 20px;
+}
+
+.icon-shield {
+  mask-image: url($image-path + "shield.svg");
+  width: 34px;
+  height: 42px;
+}
+
+.icon-users {
+  mask-image: url($image-path + "users.svg");
+  width: 36px;
+  height: 33px;
+}
+
+.icon-home {
+  mask-image: url($image-path + "home.svg");
+  width: 40px;
+  height: 36px;
+}
+
+.icon-van-delivery {
+  mask-image: url($image-path + "van-delivery.svg");
+  width: 70px;
+  height: 70px;
+}
+
+.icon-ship {
+  mask-image: url($image-path + "ship.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon-drone-delivery {
+  mask-image: url($image-path + "drone-delivery.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon-airplane {
+  mask-image: url($image-path + "airplane.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon-star-review {
+  mask-image: url($image-path + "star-review.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.icon-download {
+  mask-image: url($image-path + "download.svg");
+  width: 33px;
+  height: 30px;
+}
+
+.icon-packaging {
+  mask-image: url($image-path + "packaging.svg");
+  width: 50px;
+  height: 50px;
+}
+
+.icon-store {
+  mask-image: url($image-path + "store.svg");
+  width: 50px;
+  height: 50px;
+}
+
+.icon-delivery-parcel {
+  mask-image: url($image-path + "delivery-parcel.svg");
+  width: 50px;
+  height: 50px;
+}
+
+.icon-quote {
+  mask-image: url($image-path + "quote.svg");
+  width: 37px;
+  height: 25px;
+}
+
+.icon-star {
+  mask-image: url($image-path + "star.svg");
+  width: 24px;
+  height: 22px;
+}
+
+.icon-user-add {
+  mask-image: url($image-path + "user-add.svg");
+  width: 36px;
+  height: 33px;
+}
+
+.icon-arrow-right {
+  mask-image: url($image-path + "arrow-right.svg");
+  width: 19px;
+  height: 15px;
+}
